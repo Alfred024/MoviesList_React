@@ -6,7 +6,7 @@ function MovieItem(props){
     <li className="movieItem">
       <article  className="shopCard">
         <div className="imgContainer">
-            <img src={props.posterURL}/>
+            <img src={props.posterURL} alt={"Poster of "+props.movieName+" movie"}/>
         </div>
         <div class="infoContainer">
             <h2>{props.movieName}</h2>
