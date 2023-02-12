@@ -10,7 +10,8 @@ function MovieItem(props){
         </div>
         <div class="infoContainer">
             <h2>{props.movieName}</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam earum tempore eum facere dolor rerum suscipit corrupti consequuntur asperiores molestias nobis omnis.
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam earum tempore eum facere dolor rerum suscipit corrupti consequuntur asperiores molestias nobis omnis.
             </p>
             <button className="addButton">
                 Add to favourites

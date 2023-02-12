@@ -28,7 +28,6 @@
     background-color: rgb(231, 64, 64);
     border: none;
     padding: 10px 0px;
-    border-radius: 10px;
 }
 .deleteButton{
     position: absolute;
@@ -36,5 +35,5 @@
     right: -5px;
     width: 30px;
     height: 30px;
-    border: 50%;
+    border-radius: 100%;
 }
