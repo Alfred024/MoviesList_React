@@ -1,0 +1,40 @@
+.shopCard{
+    font-family: 'Mukta', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+    height: fit-content;
+    background-color: rgba(244, 243, 243, 0.897);
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px 10px;
+}
+.shopCard img{
+    width: 100%;
+    height: 100%;
+}
+.shopCard .infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 20px;
+    position: relative;
+}
+.shopCard p{
+    font-size: 12px;
+}
+.shopCard button{
+    color: white;
+    background-color: rgb(231, 64, 64);
+    border: none;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+.deleteButton{
+    position: absolute;
+    top: 0;
+    right: -5px;
+    width: 30px;
+    height: 30px;
+    border: 50%;
+}
